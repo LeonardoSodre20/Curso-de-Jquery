@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.paragrafoMain {
+  text-transform: uppercase;
+  padding: 15px;
+  background-color: chartreuse;
+  border-radius: 15px;
+  width: 20%;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px black;
+  font-weight: bold;
+}
+
+.h1-main {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: yellow;
+  width: 55%;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 15px;
+}
+
+.container {
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: chartreuse;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 15px;
+}

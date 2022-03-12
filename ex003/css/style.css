@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: chartreuse;
+}
+
+.container-main {
+  height: 500px;
+  width: 500px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item1 {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  color: white;
+}
+
+.item2 {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  color: white;
+}
+
+.item3 {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  background-color: red;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  color: white;
+}
+
+.btnExibir {
+  padding: 15px;
+  color: white;
+  width: 200px;
+  height: 150px;
+  background-color: tomato;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+}
+
+.btnOcultar {
+  padding: 15px;
+  color: white;
+  width: 200px;
+  height: 150px;
+  background-color: tomato;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+}
+
+.btnExibirAndOcultar {
+  padding: 15px;
+  color: white;
+  width: 200px;
+  height: 150px;
+  background-color: tomato;
+  font-size: 2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  cursor: pointer;
+}
