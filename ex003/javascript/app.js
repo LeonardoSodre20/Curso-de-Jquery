@@ -16,4 +16,8 @@ $(document).ready(function () {
       alert("Exibiu e Ocultou os Items");
     });
   });
+
+  $(".btnExibirAndOcultar").click(function () {
+    $(".items").fadeOut();
+  });
 });
